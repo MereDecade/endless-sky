@@ -1,3 +1,21 @@
+# About this branch
+
+This branch is a collection of experiments that impact the game's economy to some extent. While this branch isn't one that will ever be merged upstream, it's possible that some of the ideas might spin off into something that might be worthwhile individually/in a group.
+
+Some things to explore:
+- [ ] Increased base value for commodities
+- [ ] Recurring costs for ships (besides the crew)
+- [ ] Decreased hull prices
+- [ ] Flagging stolen ships/outfits, and governments variously interacting with that (confiscating, refusing trade, offering fence services, etc.)
+- [ ] Scale pirate attraction based on expected cargo value
+- [ ] AI ships can take your cargo when they (hostile) board you
+- [ ] Different levels of boarding progress, with cargo available immediately and installed outfits only available after pushing further in
+- [ ] Random freighters occasionally carrying outfits (including alien freighters carrying alien tech)
+
+At the moment, it's all just ideas, but I'll mark them off (completed or cancelled) as I try them out. Of course, the list may grow as well.
+
+-----
+
 # Endless Sky
 
 Explore other star systems. Earn money by trading, carrying passengers, or completing missions. Use your earnings to buy a better ship or to upgrade the weapons and engines on your current one. Blow up pirates. Take sides in a civil war. Or leave human space behind and hope to find some friendly aliens whose culture is more civilized than your own...
