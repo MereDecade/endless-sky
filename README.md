@@ -3,8 +3,11 @@
 This branch is a collection of experiments that impact the game's economy to some extent. While this branch isn't one that will ever be merged upstream, it's possible that some of the ideas might spin off into something that might be worthwhile individually/in a group.
 
 Some things to explore:
-- [ ] Increased base value for commodities
+- [x] Increased base value for commodities
+* Makes commodities more lucrative when looting (without affecting trade revenue)
+* Commit 54d7480: 1st pass
 - [ ] Recurring costs for ships (besides the crew)
+* Commit 5fde144: Code support for displaying this in the UI
 - [ ] Decreased hull prices
 - [ ] Flagging stolen ships/outfits, and governments variously interacting with that (confiscating, refusing trade, offering fence services, etc.)
 - [ ] Scale pirate attraction based on expected cargo value
