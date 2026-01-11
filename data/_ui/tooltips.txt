@@ -478,7 +478,7 @@ tip "leak resistance heat:"
 	`Heat generated per second when resisting leak damage.`
 
 tip "maintenance costs:"
-	`Credits spent per day to maintain this outfit. Even if a ship is parked or an outfit is in cargo, you still need to pay for its maintenance.`
+	`Credits spent per day to maintain. Even if a ship is parked or an outfit is in cargo, you still need to pay for its maintenance.`
 
 tip "map:"
 	`The number of star systems included in this map.`
@@ -499,7 +499,7 @@ tip "movement (full - no cargo):"
 	`How quickly this ship can accelerate and turn when its cargo hold is full versus when it is empty.`
 
 tip "operating costs:"
-	`Credits spent per day to maintain this outfit when it is in active use.`
+	`Credits spent per day to maintain when it is in active use.`
 
 tip "operating income:"
 	`Credits received per day when this outfit is in active use.`

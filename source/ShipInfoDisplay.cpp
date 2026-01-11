@@ -190,6 +190,25 @@ void ShipInfoDisplay::UpdateAttributes(const Ship &ship, const PlayerInfo &playe
 	attributeValues.push_back(Format::Credits(depreciated));
 	attributesHeight += 20;
 
+	// Ongoing costs are important, but not so important that they should crowd out other things
+	if(scrollingPanel)
+	{
+		auto maintCosts = max<int64_t>(0, ship.Attributes().Get("maintenance costs"));
+		if(maintCosts)
+		{
+			attributeLabels.push_back("maintenance costs:");
+			attributeValues.push_back(Format::Credits(maintCosts));
+			attributesHeight += 20;
+		}
+		auto opCosts = max<int64_t>(0, ship.Attributes().Get("operating costs"));
+		if(opCosts)
+		{
+			attributeLabels.push_back("operating costs:");
+			attributeValues.push_back(Format::Credits(opCosts));
+			attributesHeight += 20;
+		}
+	}
+
 	attributeLabels.push_back(string());
 	attributeValues.push_back(string());
 	attributesHeight += 10;
