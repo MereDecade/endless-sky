@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 trade
-	commodity "Food" 100 600
+	commodity "Food" 400 900
 		"acorns"
 		"acorn bread"
 		"alfalfa"
@@ -238,7 +238,7 @@ trade
 		"yogurt"
 		"zucchini"
 		"zucchini bread"
-	commodity "Clothing" 140 440
+	commodity "Clothing" 440 740
 		"athletic wear"
 		"balaclavas"
 		"ball gowns"
@@ -356,7 +356,7 @@ trade
 		"wool"
 		"work boots"
 		"zippers"
-	commodity "Metal" 190 590
+	commodity "Metal" 650 1050
 		"aluminized steel"
 		"aluminum"
 		"beryllium"
@@ -408,7 +408,7 @@ trade
 		"tool steel blanks"
 		"vanadium"
 		"zinc"
-	commodity "Plastic" 240 540
+	commodity "Plastic" 700 1000
 		"acetone"
 		"asphalt"
 		"bakelite"
@@ -448,7 +448,7 @@ trade
 		"unplasticized PVC"
 		"vinylesters"
 		"xylene"
-	commodity "Equipment" 330 730
+	commodity "Equipment" 900 1300
 		"3D printers"
 		"CNC machines"
 		"air conditioners"
@@ -525,7 +525,7 @@ trade
 		"welding torches"
 		"wheelbarrows"
 		"whiskey barrels"
-	commodity "Medical" 430 930
+	commodity "Medical" 1000 1500
 		"antibacterials"
 		"antibiotics"
 		"anti-inflammatories"
@@ -600,7 +600,7 @@ trade
 		"tweezers"
 		"wheelchairs"
 		"X-ray machines"
-	commodity "Industrial" 520 920
+	commodity "Industrial" 1200 1600
 		"aniline dyes"
 		"assorted shimstock"
 		"battery acid"
@@ -676,7 +676,7 @@ trade
 		"vacuum cleaners"
 		"varnish"
 		"wood"
-	commodity "Electronics" 590 890
+	commodity "Electronics" 1270 1570
 		"accelerometers"
 		"amplifiers"
 		"antennae"
@@ -748,7 +748,7 @@ trade
 		"voltage converters"
 		"wireless receivers"
 		"wires"
-	commodity "Heavy Metals" 610 1310
+	commodity "Heavy Metals" 1390 2090
 		"actinide metals"
 		"barium"
 		"bismuth"
@@ -770,7 +770,7 @@ trade
 		"reactor-grade uranium"
 		"thorium"
 		"tungsten"
-	commodity "Luxury Goods" 920 1520
+	commodity "Luxury Goods" 1700 2300
 		"agates"
 		"amber"
 		"amethysts"
